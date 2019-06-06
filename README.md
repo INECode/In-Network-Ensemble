@@ -2,7 +2,7 @@
 
 This repository contains a PyTorch implementation of the In Network Ensemble (INE) training method for peer review. Codes are modified based on the implementation of SWA at https://github.com/timgaripov/swa.
 
-You can first download checkpoints for 1 budget training with SGD and SWA as the starting point of INE training (https://drive.google.com/drive/folders/1vxURQtK6Zd8SsimCUPICiM2IXMETF00-). To run INE use the following commands(to continue running SWA, you can simply set ine_start equal to epochs, eg. set ine_start=300 in the VGG16 setting)
+You can first download checkpoints pre-trained with SGD and SWA as the starting point of INE training (https://drive.google.com/drive/folders/1vxURQtK6Zd8SsimCUPICiM2IXMETF00-). To run INE use the following commands(to continue running SWA, you can simply set ine_start equal to epochs, eg. set ine_start=300 in the VGG16 setting)
 
 ```bash
 #VGG16 
